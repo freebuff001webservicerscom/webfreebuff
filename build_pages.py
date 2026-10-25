@@ -139,7 +139,7 @@ def header():
                 </div>
                 <div class="dropdown-footer">
                   <p>Ready to grow? Our experts handle the marketing.</p>
-                  <a class="btn btn-white btn-sm" href="index.html#get-started">Talk to an expert</a>
+                  <a class="btn btn-white btn-sm" href="contact.html">Talk to an expert</a>
                 </div>
               </div>
             </li>
@@ -270,7 +270,7 @@ def cta_block(h2, copy, primary="#pricing", primary_label="See plans"):
           </div>
           <div class="cta-actions">
             <a class="btn btn-light btn-lg" href="{primary}">{primary_label}</a>
-            <a class="btn btn-glass btn-lg" href="help.html">Talk to an expert</a>
+            <a class="btn btn-glass btn-lg" href="contact.html">Talk to an expert</a>
           </div>
         </div>
       </div>
@@ -814,7 +814,7 @@ def service_page(s):
           <p class="page-lead">{s['lead']}</p>
           <div class="hero-actions">
             <a class="btn btn-lg" style="background:var(--accent);color:var(--accent-contrast)" href="#pricing">See pricing</a>
-            <a class="link-arrow" href="index.html#get-started">Talk to an expert</a>
+            <a class="link-arrow" href="contact.html">Talk to an expert</a>
           </div>
           <ul class="hero-points">{points}</ul>
         </div>
@@ -1168,6 +1168,7 @@ def sitemap_page():
             ("Instagram Ads", "instagram-ads.html"),
         ],
         "Company": [
+            ("Talk to an expert", "contact.html"),
             ("About us", "about.html"),
             ("Careers", "careers.html"),
             ("Press &amp; Media", "press.html"),
