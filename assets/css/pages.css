@@ -1211,7 +1211,7 @@
 .prose h3 { font-size: 1.02rem; margin: 24px 0 8px; }
 .prose ul { display: grid; gap: 8px; margin: 0 0 18px; }
 .prose li { position: relative; padding-left: 20px; font-size: .9rem; color: #45524c; }
-.prose li::before { content: ""; position: absolute; left: 0; top: .58em; width: 5px; height: 5px; border-radius: 50%; background: #b9b2c9; }
+.prose li::before { content: ""; position: absolute; left: 0; top: .58em; width: 5px; height: 5px; border-radius: 50%; background: #b4c1ba; }
 .prose a { color: var(--blue); font-weight: 600; }
 .prose .legal-updated { display: inline-block; font-size: .74rem; font-weight: 700; color: var(--muted-2); background: #eff6f1; padding: 6px 12px; border-radius: 999px; margin-bottom: 6px; }
 .prose .notice {
