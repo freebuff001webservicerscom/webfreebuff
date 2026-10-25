@@ -776,6 +776,8 @@ p { color: var(--muted); }
 .cat-card .cat-index,
 .cat-card .cat-desc,
 .cat-card .cat-arrow { display: none; }
+.cat-body { display: grid; gap: 4px; }
+.cat-kicker, .cat-promo { display: none; }
 .cat-index {
   position: absolute;
   top: 18px;
@@ -848,14 +850,21 @@ p { color: var(--muted); }
   border-color: transparent;
   color: #fff;
 }
+.cat-card--design .cat-body { margin-top: auto; align-self: stretch; }
 .cat-card--design .cat-name {
   display: block;
-  align-self: stretch;
-  margin-top: auto;
   padding-right: 56px;
   color: #fff;
 }
-.cat-card--design .cat-desc { display: block; align-self: stretch; }
+.cat-card--design .cat-desc { display: block; }
+.cat-card--design .cat-kicker {
+  display: block;
+  font-size: .62rem;
+  font-weight: 800;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: var(--lime);
+}
 .cat-card--design .cat-index { display: block; color: rgba(255, 255, 255, .4); }
 .cat-card--design .cat-icon { background: rgba(255, 255, 255, .1); color: #fff; }
 .cat-card--design .cat-arrow { display: grid; background: rgba(255, 255, 255, .14); color: #fff; opacity: 1; }
@@ -1330,7 +1339,19 @@ p { color: var(--muted); }
 /* ---------------- Responsive ---------------- */
 @media (max-width: 1120px) {
   .cat-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
-  .cat-card--design { grid-row: span 1; order: 9; }
+  /* Tablet: keep the featured card the same height as a normal tile */
+  .cat-card--design {
+    grid-row: span 1;
+    order: 9;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 14px;
+  }
+  .cat-card--design .cat-body { margin-top: 0; align-self: center; }
+  .cat-card--design .cat-name { margin-top: 0; padding-right: 0; font-size: .9rem; }
+  .cat-card--design .cat-desc { display: none; }
+  .cat-card--design .cat-arrow { display: none; }
   .dropdown { width: 500px; }
 }
 
@@ -1441,8 +1462,19 @@ p { color: var(--muted); }
     order: 9;
     grid-column: 1 / -1;
     grid-row: auto;
+    flex-direction: column;
+    align-items: flex-start;
     padding: 20px 18px;
     gap: 14px;
+  }
+  .cat-card--design .cat-body { margin-top: auto; align-self: stretch; }
+  .cat-card--design .cat-desc { display: block; }
+  .cat-card--design .cat-promo {
+    display: block;
+    margin-top: 2px;
+    color: rgba(255, 255, 255, .72);
+    font-size: .84rem;
+    line-height: 1.45;
   }
   .cat-card--design .cat-name { font-size: 1.02rem; padding-right: 40px; }
   .cat-card--design .cat-arrow { display: none; }
