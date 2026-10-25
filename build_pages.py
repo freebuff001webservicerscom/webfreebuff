@@ -164,7 +164,7 @@ def header():
           </ul>
 
           <div class="nav-cta">
-            <a class="btn btn-ghost" href="index.html#get-started">Sign in</a>
+            <a class="btn btn-ghost" href="login.html">Sign in</a>
             <a class="btn btn-primary" href="pricing.html">Get started</a>
           </div>
         </nav>
@@ -1174,6 +1174,11 @@ def sitemap_page():
             ("Help centre", "help.html"),
             ("Pricing", "pricing.html"),
             ("Home", "index.html"),
+        ],
+        "Account": [
+            ("Sign in", "login.html"),
+            ("Create account", "signup.html"),
+            ("Reset password", "forgot-password.html"),
         ],
         "Legal": [
             ("Terms of Service", "terms.html"),
