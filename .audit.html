@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Brand audit</title>
+<style>
+  body { margin: 0; background: #ddd; }
+  iframe { width: 375px; height: 640px; border: 0; display: block; }
+</style>
+</head>
+<body>
+<script>
+  var pages = ['index.html','about.html','careers.html','facebook-ads.html','google-my-business.html','google-search-ads.html','google-shopping-ads.html','help.html','instagram-ads.html','marketing-analytics.html','press.html','pricing.html','privacy.html','seo.html','sitemap.html','terms.html','website-design.html','website.html'];
+  pages.forEach(function (p) {
+    var f = document.createElement('iframe');
+    f.src = '../' + p + '?brand=' + Date.now();
+    f.dataset.page = p;
+    document.body.appendChild(f);
+  });
+</script>
+</body>
+</html>

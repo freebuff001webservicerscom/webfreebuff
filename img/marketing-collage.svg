@@ -1,0 +1,147 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 520" width="620" height="520" role="img" aria-label="Email campaign creative, performance dashboard and social ads">
+  <defs>
+    <linearGradient id="orange" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F8B24A"/>
+      <stop offset="1" stop-color="#EE7A2E"/>
+    </linearGradient>
+    <linearGradient id="area" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0b7a53" stop-opacity=".28"/>
+      <stop offset="1" stop-color="#0b7a53" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="tile1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFC98A"/><stop offset="1" stop-color="#F08A5D"/>
+    </linearGradient>
+    <linearGradient id="tile2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#B9E6C9"/><stop offset="1" stop-color="#5BBE8C"/>
+    </linearGradient>
+    <linearGradient id="tile3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#bfe8d8"/><stop offset="1" stop-color="#2f9e86"/>
+    </linearGradient>
+    <linearGradient id="tile4" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFE3AE"/><stop offset="1" stop-color="#E8B75C"/>
+    </linearGradient>
+    <radialGradient id="blobBlue" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#d7efe4"/><stop offset="1" stop-color="#d7efe4" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="blobWarm" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#FFE7C9"/><stop offset="1" stop-color="#FFE7C9" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="170%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#081a13" flood-opacity=".14"/>
+    </filter>
+    <filter id="softSm" x="-40%" y="-40%" width="180%" height="190%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#081a13" flood-opacity=".12"/>
+    </filter>
+    <clipPath id="flyerClip"><rect x="70" y="28" width="250" height="352" rx="16"/></clipPath>
+  </defs>
+
+  <circle cx="500" cy="120" r="210" fill="url(#blobBlue)"/>
+  <circle cx="110" cy="430" r="180" fill="url(#blobWarm)"/>
+
+  <!-- email creative -->
+  <g transform="rotate(-5 195 204)" filter="url(#soft)">
+    <g clip-path="url(#flyerClip)">
+      <rect x="70" y="28" width="250" height="352" fill="#FFF9F1"/>
+      <rect x="70" y="28" width="250" height="172" fill="url(#orange)"/>
+      <circle cx="272" cy="86" r="38" fill="#fff" opacity=".16"/>
+      <circle cx="296" cy="136" r="22" fill="#fff" opacity=".16"/>
+      <rect x="92" y="58" width="78" height="19" rx="9.5" fill="#fff" opacity=".24"/>
+      <text x="131" y="71" font-family="'Plus Jakarta Sans',Helvetica,Arial,sans-serif" font-size="7.5" font-weight="700" letter-spacing="1.4" fill="#fff" text-anchor="middle">NEW SEASON</text>
+      <text x="91" y="118" font-family="'Plus Jakarta Sans',Helvetica,Arial,sans-serif" font-size="27" font-weight="800" fill="#fff" letter-spacing="-.6">SUMMER</text>
+      <text x="91" y="152" font-family="'Plus Jakarta Sans',Helvetica,Arial,sans-serif" font-size="32" font-weight="800" fill="#fff" letter-spacing="-.8">SALE</text>
+      <text x="92" y="174" font-family="'Plus Jakarta Sans',Helvetica,Arial,sans-serif" font-size="8" font-weight="600" letter-spacing="1" fill="#fff" opacity=".9">UP TO 30% OFF</text>
+
+      <rect x="92" y="218" width="52" height="52" rx="9" fill="#F6C177"/>
+      <circle cx="118" cy="244" r="15" fill="#E9A34B"/>
+      <rect x="152" y="218" width="52" height="52" rx="9" fill="#EFDCC4"/>
+      <circle cx="178" cy="244" r="15" fill="#DDBB90"/>
+      <rect x="212" y="218" width="52" height="52" rx="9" fill="#F3AAA2"/>
+      <circle cx="238" cy="244" r="15" fill="#E4867C"/>
+
+      <rect x="92" y="288" width="180" height="7" rx="3.5" fill="#d7e3dd"/>
+      <rect x="92" y="302" width="140" height="7" rx="3.5" fill="#e4eee8"/>
+      <rect x="92" y="326" width="92" height="28" rx="14" fill="#0b1f18"/>
+      <text x="138" y="344" font-family="'Plus Jakarta Sans',Helvetica,Arial,sans-serif" font-size="9" font-weight="700" fill="#fff" text-anchor="middle">Shop now</text>
+    </g>
+  </g>
+
+  <!-- performance dashboard -->
+  <g filter="url(#soft)">
+    <rect x="118" y="228" width="310" height="240" rx="16" fill="#fff"/>
+    <text x="142" y="262" font-family="'Plus Jakarta Sans',Helvetica,Arial,sans-serif" font-size="12.5" font-weight="800" fill="#0b1f18" letter-spacing="-.3">Campaign performance</text>
+    <text x="142" y="278" font-family="'Plus Jakarta Sans',Helvetica,Arial,sans-serif" font-size="8.5" font-weight="500" fill="#7f8b84">Last 30 days · all channels</text>
+    <rect x="360" y="248" width="44" height="18" rx="9" fill="#E8F8EF"/>
+    <circle cx="369" cy="257" r="3" fill="#1FA968"/>
+    <text x="377" y="260" font-family="'Plus Jakarta Sans',Helvetica,Arial,sans-serif" font-size="8" font-weight="700" fill="#1A8F5A">Live</text>
+
+    <text x="142" y="312" font-family="'Plus Jakarta Sans',Helvetica,Arial,sans-serif" font-size="20" font-weight="800" fill="#0b1f18" letter-spacing="-.5">12.4k</text>
+    <text x="142" y="326" font-family="'Plus Jakarta Sans',Helvetica,Arial,sans-serif" font-size="8" font-weight="500" fill="#7f8b84">Clicks</text>
+    <text x="212" y="312" font-family="'Plus Jakarta Sans',Helvetica,Arial,sans-serif" font-size="20" font-weight="800" fill="#0b1f18" letter-spacing="-.5">3.8x</text>
+    <text x="212" y="326" font-family="'Plus Jakarta Sans',Helvetica,Arial,sans-serif" font-size="8" font-weight="500" fill="#7f8b84">ROAS</text>
+    <text x="272" y="312" font-family="'Plus Jakarta Sans',Helvetica,Arial,sans-serif" font-size="20" font-weight="800" fill="#0b1f18" letter-spacing="-.5">€24.9k</text>
+    <text x="272" y="326" font-family="'Plus Jakarta Sans',Helvetica,Arial,sans-serif" font-size="8" font-weight="500" fill="#7f8b84">Revenue</text>
+    <rect x="366" y="300" width="38" height="22" rx="6" fill="#eaf7f0"/>
+    <path d="M372 315l6-6 5 4 9-9" fill="none" stroke="#0b7a53" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <g stroke="#ebf2ee" stroke-width="1" stroke-dasharray="3 5">
+      <line x1="142" y1="352" x2="402" y2="352"/>
+      <line x1="142" y1="390" x2="402" y2="390"/>
+      <line x1="142" y1="428" x2="402" y2="428"/>
+    </g>
+
+    <path d="M142 428 L172 406 L204 414 L236 382 L268 390 L300 352 L332 360 L364 322 L398 300 L398 448 L142 448 Z" fill="url(#area)"/>
+    <path d="M142 428 L172 406 L204 414 L236 382 L268 390 L300 352 L332 360 L364 322 L398 300" fill="none" stroke="#0b7a53" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="398" cy="300" r="5" fill="#0b7a53" stroke="#fff" stroke-width="2.5"/>
+  </g>
+
+  <!-- audience card -->
+  <g filter="url(#softSm)">
+    <rect x="398" y="56" width="198" height="132" rx="14" fill="#fff"/>
+    <text x="418" y="82" font-family="'Plus Jakarta Sans',Helvetica,Arial,sans-serif" font-size="9" font-weight="600" fill="#7f8b84">Email subscribers</text>
+    <text x="418" y="112" font-family="'Plus Jakarta Sans',Helvetica,Arial,sans-serif" font-size="24" font-weight="800" fill="#0b1f18" letter-spacing="-.6">+38%</text>
+    <text x="418" y="126" font-family="'Plus Jakarta Sans',Helvetica,Arial,sans-serif" font-size="8" font-weight="500" fill="#93a198">vs last month</text>
+    <g>
+      <rect x="418" y="160" width="12" height="14" rx="3" fill="#dbe8e1"/>
+      <rect x="438" y="152" width="12" height="22" rx="3" fill="#dbe8e1"/>
+      <rect x="458" y="144" width="12" height="30" rx="3" fill="#dbe8e1"/>
+      <rect x="478" y="156" width="12" height="18" rx="3" fill="#dbe8e1"/>
+      <rect x="498" y="138" width="12" height="36" rx="3" fill="#0b7a53"/>
+      <rect x="518" y="148" width="12" height="26" rx="3" fill="#dbe8e1"/>
+      <rect x="538" y="132" width="12" height="42" rx="3" fill="#7fd6bd"/>
+    </g>
+  </g>
+
+  <!-- SEO badge -->
+  <g filter="url(#softSm)">
+    <circle cx="342" cy="168" r="44" fill="#fff"/>
+    <circle cx="342" cy="168" r="35" fill="none" stroke="#E6F7ED" stroke-width="6"/>
+    <path d="M342 184v-24M332 170l10-10 10 10" fill="none" stroke="#1FA968" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="342" y="200" font-family="'Plus Jakarta Sans',Helvetica,Arial,sans-serif" font-size="9" font-weight="800" fill="#1FA968" text-anchor="middle" letter-spacing=".4">+64%</text>
+  </g>
+
+  <!-- social ads card -->
+  <g filter="url(#softSm)">
+    <rect x="428" y="330" width="178" height="152" rx="14" fill="#fff"/>
+    <text x="446" y="356" font-family="'Plus Jakarta Sans',Helvetica,Arial,sans-serif" font-size="10" font-weight="800" fill="#0b1f18" letter-spacing="-.2">Social ads</text>
+    <circle cx="586" cy="351" r="3" fill="#c2d0c8"/><circle cx="578" cy="351" r="3" fill="#c2d0c8"/>
+    <rect x="446" y="370" width="66" height="49" rx="8" fill="url(#tile1)"/>
+    <circle cx="479" cy="391" r="13" fill="#fff" opacity=".3"/>
+    <rect x="446" y="425" width="66" height="42" rx="8" fill="url(#tile3)"/>
+    <rect x="458" y="437" width="30" height="5" rx="2.5" fill="#fff" opacity=".55"/>
+    <rect x="458" y="447" width="18" height="5" rx="2.5" fill="#fff" opacity=".4"/>
+    <rect x="520" y="370" width="66" height="49" rx="8" fill="url(#tile2)"/>
+    <path d="M542 400l8-9 6 7 8-11" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" opacity=".8"/>
+    <rect x="520" y="425" width="66" height="42" rx="8" fill="url(#tile4)"/>
+    <circle cx="548" cy="442" r="8" fill="#fff" opacity=".4"/>
+    <rect x="562" y="437" width="14" height="5" rx="2.5" fill="#fff" opacity=".6"/>
+    <rect x="562" y="447" width="10" height="5" rx="2.5" fill="#fff" opacity=".45"/>
+  </g>
+
+  <g fill="#0b7a53" opacity=".35">
+    <circle cx="70" cy="120" r="4"/><circle cx="52" cy="150" r="2.5"/><circle cx="560" cy="280" r="3"/>
+    <circle cx="470" cy="220" r="2.5"/><circle cx="90" cy="470" r="3"/>
+  </g>
+  <g stroke="#1FA968" stroke-width="2.5" stroke-linecap="round" opacity=".38">
+    <path d="M542 232h12M548 226v12"/>
+  </g>
+</svg>
