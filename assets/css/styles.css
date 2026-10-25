@@ -828,6 +828,7 @@ p { color: var(--muted); }
 }
 .cat-arrow svg { width: 14px; height: 14px; }
 .cat-card:hover .cat-arrow { opacity: 1; transform: none; }
+.cat-cta { display: none; }
 
 .cat-card--youtube { --tint: #ffeded; --tone: #ff1f1f; }
 .cat-card--facebook { --tint: #e9f6f0; --tone: #1877f2; }
@@ -1329,7 +1330,7 @@ p { color: var(--muted); }
 /* ---------------- Responsive ---------------- */
 @media (max-width: 1120px) {
   .cat-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
-  .cat-card--design { grid-row: span 1; }
+  .cat-card--design { grid-row: span 1; order: 9; }
   .dropdown { width: 500px; }
 }
 
@@ -1435,7 +1436,30 @@ p { color: var(--muted); }
   .cat-card { padding: 11px 13px; }
   .cat-icon { width: 40px; height: 40px; border-radius: 12px; }
   .cat-icon svg { width: 22px; height: 22px; }
-  .cat-card--design { grid-row: span 2; padding: 16px; }
+  /* Phone: the featured card moves below the tiles, full width, with a CTA */
+  .cat-card--design {
+    order: 9;
+    grid-column: 1 / -1;
+    grid-row: auto;
+    padding: 20px 18px;
+    gap: 14px;
+  }
+  .cat-card--design .cat-name { font-size: 1.02rem; padding-right: 40px; }
+  .cat-card--design .cat-arrow { display: none; }
+  .cat-cta {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 40px;
+    margin-top: 4px;
+    padding: 9px 26px;
+    border-radius: 999px;
+    background: #fff;
+    color: var(--ink);
+    font-size: .84rem;
+    font-weight: 800;
+    letter-spacing: -.01em;
+  }
 
   .hero h1 { font-size: clamp(2.5rem, 11vw, 3.4rem); }
   .hero-points { font-size: .78rem; gap: 8px 16px; }
@@ -1482,6 +1506,12 @@ p { color: var(--muted); }
   .marquee-group span { font-size: .82rem; }
   .cat-name { font-size: .85rem; }
   .cat-index { top: 16px; right: 16px; }
+  .cat-grid { gap: 10px; }
+  .cat-card { padding: 10px 12px; gap: 10px; }
+  .cat-icon { width: 36px; height: 36px; border-radius: 11px; }
+  .cat-icon svg { width: 20px; height: 20px; }
+  .cat-card--design { padding: 18px 16px; }
+  .cat-cta { padding: 9px 22px; }
 
   .cards { grid-template-columns: 1fr; }
   .service-card { padding: 16px; }
